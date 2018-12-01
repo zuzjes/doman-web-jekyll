@@ -1,0 +1,84 @@
+h2 {
+    color: #236175
+}
+
+.jumbotron{
+    background-image: url(img2.jpg);
+    min-height: 80px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: ;
+}
+
+
+th [colspan="8"] {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    font-size: 15px;
+}
+
+dd {
+    font-size: 17px;
+}
+
+.mt-obr.mb-obr  {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mt-txt.mb-txt {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.mt-txt.mb-txt.pr-obr {
+    padding-right: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.pr-obr {
+    padding-right: 40px;
+}
+
+.mb-obr {
+    padding-bottom: 100px;
+}
+
+.mt-obr {
+    margin-top: 15px;
+}
+
+.card-body.text2 {
+    margin-bottom: 72px;
+}
+
+.nav-item:hover {
+    background-color: #236175;
+}
+
+.card {
+    border-radius: 0px;
+}
+
+.back-dark {
+    background-color: #36494F;
+}
+.back-light {
+    background-color: #7BA5B3;
+}
+
+body {
+    background-color: #;
+}
+
+.img-circle {
+    border-radius: 100%;
+}
