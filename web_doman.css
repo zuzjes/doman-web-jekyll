@@ -76,7 +76,7 @@ dd {
     background-color: #36494F;
 }
 .back-light {
-    background-color: #7BA5B3;
+    background-color: #3386A1;
 }
 
 body {
@@ -85,4 +85,7 @@ body {
 
 .img-circle {
     border-radius: 100%;
+}
+.container.nadtextem {
+    margin-top: 75px;
 }
