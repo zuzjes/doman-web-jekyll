@@ -5,14 +5,14 @@ h1 {
 h2 {
     color: #FFFFFF;
 }
-h3 {font-size: 17px;
+h3 {
+    font-size: 17px;
 
 }
-h4 {font-size: 16px;
-
+h4 {
+    font-size: 16px;
 }
-
-.jumbotron{
+.jumbotron {
     background-image: url(img2.jpg);
     min-height: 80px;
     margin-bottom: 0px;
@@ -23,8 +23,6 @@ body {
     font-family: 'Raleway', sans-serif;
     background-color: ;
 }
-
-
 th [colspan="8"] {
     text-align: center;
 }
@@ -67,7 +65,7 @@ dd {
 }
 
 .card-body.text2 {
-    margin-bottom: 60px;
+    margin-bottom: 24px;
 }
 
 .nav-item:hover {
@@ -81,17 +79,17 @@ dd {
 .back-dark {
     background-color: #36494F;
 }
-.back-light {
-    background-color: #3386A1;
-}
-
-body {
-    background-color: #;
+.footer {
+    background-color: #FFFFFF;
 }
 
 .img-circle {
     border-radius: 100%;
 }
-.container.nadtextem {
-    margin-top: 75px;
+.nadtextem {
+    margin-top: 70px;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #236175;
 }
