@@ -10,8 +10,14 @@ h3 {
 
 }
 h4 {
+    font-size: 19px;
+}
+
+p {
+    text-align: justify;
     font-size: 16px;
 }
+
 .jumbotron {
     background-image: url(img2.jpg);
     min-height: 80px;
@@ -27,11 +33,10 @@ th [colspan="8"] {
     text-align: center;
 }
 
-p {
-    text-align: justify;
-    font-size: 16px;
-}
 
+.podtext.carta {
+    font-size: 14px;
+}
 dd {
     font-size: 17px;
 }
@@ -66,6 +71,10 @@ dd {
 
 .card-body.text2 {
     margin-bottom: 24px;
+}
+.card.mb-4 {
+    background-color: #939B9E   ;
+
 }
 
 .nav-item:hover {
