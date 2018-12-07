@@ -70,11 +70,14 @@ dd {
 }
 
 .card-body.text2 {
-    margin-bottom: 24px;
+    margin-bottom: 27px;
 }
-.card.mb-4 {
-    background-color: #939B9E   ;
+.grey {
+    background-color: #D1D1D1;
+}
 
+.card-body.text1 {
+    margin-bottom: 12px;
 }
 
 .nav-item:hover {
