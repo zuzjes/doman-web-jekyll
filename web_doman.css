@@ -95,13 +95,13 @@ dd {
     background-color: #FFFFFF;
 }
 
-.img-circle {
-    border-radius: 100%;
-}
 .nadtextem {
     margin-top: 70px;
 }
 
 .dropdown-item.active, .dropdown-item:active {
     background-color: #236175;
+}
+.card-body.text2 {
+    margin-bottom: 45px;
 }
