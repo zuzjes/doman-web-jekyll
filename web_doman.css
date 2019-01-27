@@ -1,16 +1,37 @@
+---
+
+---
+
+h1, h2 {
+    padding-top: 5px;
+    color: white;
+    text-align: center;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 h1 {
-    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: bold;
 }
 
 h2 {
-    color: #FFFFFF;
-}
-h3 {
-    font-size: 17px;
+    font-size: 40px;
 
 }
+h3 {
+    font-size: 25px;
+}
+
 h4 {
-    font-size: 19px;
+    font-size: 25px;
 }
 
 p {
@@ -18,30 +39,40 @@ p {
     font-size: 16px;
 }
 
-.jumbotron {
-    background-image: url(img2.jpg);
-    min-height: 80px;
-    margin-bottom: 0px;
-    border-radius: 0px;
+a {
+    color: #432B39;
+}
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #432B39;
 }
 
-body {
-    font-family: 'Raleway', sans-serif;
-    background-color: ;
+.jumbotron {
+    background-image: url(img/dopravniky1.jpg);
+    margin-bottom: -50px;
+    border-radius: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+.bg-clearfix {
+    background: rgba(0, 0, 0, 0.5);
 }
+
+
 th [colspan="8"] {
     text-align: center;
 }
 
-
-.podtext.carta {
-    font-size: 14px;
+.podtext.karta {
+    font-size: 18px;
 }
+
 dd {
     font-size: 17px;
 }
 
-.mt-obr.mb-obr  {
+.mt-obr.mb-obr {
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -72,27 +103,35 @@ dd {
 .card-body.text2 {
     margin-bottom: 27px;
 }
+
 .grey {
     background-color: #D1D1D1;
 }
 
 .card-body.text1 {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 .nav-item:hover {
     background-color: #236175;
 }
+.navbar-toggler-icon {
+    color: white;
+}
 
 .card {
     border-radius: 0px;
 }
+.card-w {
+    border: 1px solid rgba(0,0,0,0)
+}
 
 .back-dark {
-    background-color: #36494F;
+    background-color: #2D3338;
 }
+
 .footer {
-    background-color: #FFFFFF;
+    background-color: #2D3338;
 }
 
 .nadtextem {
@@ -102,6 +141,32 @@ dd {
 .dropdown-item.active, .dropdown-item:active {
     background-color: #236175;
 }
+
 .card-body.text2 {
     margin-bottom: 45px;
+}
+
+html {
+  scroll-behavior: smooth
+}
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  margin: 5px 0;
+  transition: 0.4s;
+  background-color: white;
+}
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
 }
